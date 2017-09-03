@@ -1,0 +1,27 @@
+{
+  "name": "webpack-boiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "build": "webpack --progress --colors  --display-error-details",
+    "dev": "webpack --progress --colors --watch  --display-error-details",
+    "dash": "webpack-dashboard -- npm run dev",
+    "server": "webpack-dev-server --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "ts-loader": "^2.3.4",
+    "typescript": "^2.4.2",
+    "webpack": "^3.5.5",
+    "webpack-dashboard": "^1.0.0-5"
+  },
+  "dependencies": {
+    "rxjs": "^5.4.3"
+  }
+}
